@@ -1,23 +1,31 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1788899702
-icon.svg::CompressedTexture2D::7571855233161958786::1788899641::1788899647::1::::<><><>0<>0<>9435da7ccfbe2e50c25f72bf9ffb2d01<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://NewProject/::1788899702
-bullet.gd::GDScript::4786144355716232797::1788899702::0::1::::<>Area2D<><>0<>0<><>::
-bullet.tscn::PackedScene::7368233533784800772::1788899702::0::1::::<><><>0<>0<><>::uid://cagpdlutmfm4l::::res://NewProject/bullet.gd<>uid://v0sxe14d6uur::::res://Sprite Sheet - Free/Bullets.png
-enemy.tscn::PackedScene::2238271857987014307::1788899702::0::1::::<><><>0<>0<><>::uid://ck2yq25bm1x6s::::res://Sprite Sheet - Free/Free - Character/3Idle.png<>uid://bp4fq5isp8s5l::::res://Sprite Sheet - Free/Free - Gun.png
-game.tscn::PackedScene::6092606556919278490::1788899702::0::1::::<><><>0<>0<><>::uid://d4xut8d12iul::::res://NewProject/player_camera.gd<>uid://cubgqj6mt08ix::::res://NewProject/player.tscn<>uid://65iameecgnxr::::res://NewProject/enemy.tscn
-icon.svg::CompressedTexture2D::7055451791095795497::1788899702::1788899703::1::::<><><>0<>0<>2ff4b1e2e499f3c0f96741f337b5b7e2<>res://.godot/imported/icon.svg-6d43593b5f7226eaba747fb96ec8d405.ctex::
-player.gd::GDScript::4706836130454306779::1788899702::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::6179076013730711395::1788899702::0::1::::<><><>0<>0<><>::uid://b8ca5yk5hafep::::res://NewProject/player.gd<>uid://dc8hy2vvmvwc7::::res://NewProject/bullet.tscn<>uid://ck2yq25bm1x6s::::res://Sprite Sheet - Free/Free - Character/3Idle.png<>uid://bp4fq5isp8s5l::::res://Sprite Sheet - Free/Free - Gun.png
-player_camera.gd::GDScript::271866741587877867::1788899702::0::1::::<>Camera2D<><>0<>0<><>::
-::res://Sprite Sheet - Free/::1788899702
-Bullets.png::CompressedTexture2D::1526709390960977361::1788899702::1788899703::1::::<><><>0<>0<>97aed1683676badc8079d90250410ccc<>res://.godot/imported/Bullets.png-5e6846a16350737c552b02957afe4d24.ctex::
-Free - Bullet Hit FX.png::CompressedTexture2D::6403577167947748268::1788899702::1788899703::1::::<><><>0<>0<>8e76173f883934b1cdc22d487917c119<>res://.godot/imported/Free - Bullet Hit FX.png-7c928753ed0733f949e3b9d92af30d55.ctex::
-Free - Gun.png::CompressedTexture2D::3499454039695772167::1788899702::1788899703::1::::<><><>0<>0<>9e1548661fb593006b24ffbe5df5f281<>res://.godot/imported/Free - Gun.png-6da4fe0c4ec68641f342932240636bbb.ctex::
-Free - Muzzle Flash FX.png::CompressedTexture2D::1148978677522450996::1788899702::1788899703::1::::<><><>0<>0<>e2b90ff33d7de70244bd923597387967<>res://.godot/imported/Free - Muzzle Flash FX.png-9da944b3d5e6d7bf43e99117b97de52c.ctex::
-::res://Sprite Sheet - Free/Free - Character/::1788899702
-3Death.png::CompressedTexture2D::32676382625426586::1788899702::1788899703::1::::<><><>0<>0<>8dd1f9996cad577b1c035626b599a448<>res://.godot/imported/3Death.png-7d04ec1375376773d76905d03c4c282a.ctex::
-3Hurt.png::CompressedTexture2D::2053874087968054624::1788899702::1788899703::1::::<><><>0<>0<>ca431ef59b2f1609dc7586811142063d<>res://.godot/imported/3Hurt.png-66e829549e1ff82218a029e098e6c458.ctex::
-3Idle.png::CompressedTexture2D::5531955248192120764::1788899702::1788899703::1::::<><><>0<>0<>b6946af2db7372e48453e0d722f2042f<>res://.godot/imported/3Idle.png-b203ad4290647c623aaf3436132eed60.ctex::
-3Roll.png::CompressedTexture2D::4298556630875432975::1788899702::1788899703::1::::<><><>0<>0<>f4b6bf304c470bfe341c69b3adac95f8<>res://.godot/imported/3Roll.png-d0d0e217baf8febe4cee6a09c8623239.ctex::
-3Run.png::CompressedTexture2D::7795317050203158226::1788899702::1788899703::1::::<><><>0<>0<>23ed1089015893a2a38da9deeb0af248<>res://.godot/imported/3Run.png-f7dc3c90ac4dae299abb5475f9b014eb.ctex::
+::res://::1788900700
+::res://FinishedProject/::1788900747
+bullet.gd::GDScript::2775248398918958198::1788900747::0::1::::<>Area2D<><>0<>0<><>::
+bullet.tscn::PackedScene::4261735398155900667::1788900747::0::1::::<><><>0<>0<><>::uid://bfsl62vh6ia2q::::res://FinishedProject/bullet.gd<>uid://v0sxe14d6uur::::res://Sprite Sheet - Free/Bullets.png
+enemy.tscn::PackedScene::2013652099224846312::1788900747::0::1::::<><><>0<>0<><>::uid://ck2yq25bm1x6s::::res://Sprite Sheet - Free/Free - Character/3Idle.png<>uid://bp4fq5isp8s5l::::res://Sprite Sheet - Free/Free - Gun.png
+game.tscn::PackedScene::690706229377353952::1788900747::0::1::::<><><>0<>0<><>::uid://jhdq687e0oud::::res://FinishedProject/player_camera.gd<>uid://3xos5ufc3cyq::::res://FinishedProject/enemy.tscn<>uid://b82q7s87q5pia::::res://FinishedProject/player.tscn
+player.gd::GDScript::8506783272444708790::1788900747::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::4759420338272363772::1788900747::0::1::::<><><>0<>0<><>::uid://dtg0qifgj82uk::::res://FinishedProject/player.gd<>uid://b1yofohq5riyd::::res://FinishedProject/bullet.tscn<>uid://ck2yq25bm1x6s::::res://Sprite Sheet - Free/Free - Character/3Idle.png<>uid://bp4fq5isp8s5l::::res://Sprite Sheet - Free/Free - Gun.png
+player_camera.gd::GDScript::646362641364166187::1788900747::0::1::::<>Camera2D<><>0<>0<><>::
+icon.svg::CompressedTexture2D::1151995431086812987::1788900747::1788900747::1::::<><><>0<>0<>8ea8aa0399e011493896e4263e360cb0<>res://.godot/imported/icon.svg-3e18522376d47b478586371cc8564550.ctex::
+::res://NewProject/::1788900706
+bullet.gd::GDScript::4786144355716232797::1788900467::0::1::::<>Area2D<><>0<>0<><>::
+bullet.tscn::PackedScene::7368233533784800772::1788900467::0::1::::<><><>0<>0<><>::uid://cagpdlutmfm4l::::res://NewProject/bullet.gd<>uid://v0sxe14d6uur::::res://Sprite Sheet - Free/Bullets.png
+enemy.tscn::PackedScene::2238271857987014307::1788900467::0::1::::<><><>0<>0<><>::uid://ck2yq25bm1x6s::::res://Sprite Sheet - Free/Free - Character/3Idle.png<>uid://bp4fq5isp8s5l::::res://Sprite Sheet - Free/Free - Gun.png
+game.tscn::PackedScene::6092606556919278490::1788900706::0::1::::<><><>0<>0<><>::uid://d4xut8d12iul::::res://NewProject/player_camera.gd<>uid://cubgqj6mt08ix::::res://NewProject/player.tscn<>uid://65iameecgnxr::::res://NewProject/enemy.tscn
+icon.svg::CompressedTexture2D::7055451791095795497::1788900467::1788900467::1::::<><><>0<>0<>2ff4b1e2e499f3c0f96741f337b5b7e2<>res://.godot/imported/icon.svg-6d43593b5f7226eaba747fb96ec8d405.ctex::
+player.gd::GDScript::4706836130454306779::1788900467::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::6179076013730711395::1788900467::0::1::::<><><>0<>0<><>::uid://b8ca5yk5hafep::::res://NewProject/player.gd<>uid://dc8hy2vvmvwc7::::res://NewProject/bullet.tscn<>uid://ck2yq25bm1x6s::::res://Sprite Sheet - Free/Free - Character/3Idle.png<>uid://bp4fq5isp8s5l::::res://Sprite Sheet - Free/Free - Gun.png
+player_camera.gd::GDScript::271866741587877867::1788900467::0::1::::<>Camera2D<><>0<>0<><>::
+::res://Sprite Sheet - Free/::1788900470
+Bullets.png::CompressedTexture2D::1526709390960977361::1788900470::1788900470::1::::<><><>0<>0<>97aed1683676badc8079d90250410ccc<>res://.godot/imported/Bullets.png-5e6846a16350737c552b02957afe4d24.ctex::
+Free - Bullet Hit FX.png::CompressedTexture2D::6403577167947748268::1788900470::1788900470::1::::<><><>0<>0<>8e76173f883934b1cdc22d487917c119<>res://.godot/imported/Free - Bullet Hit FX.png-7c928753ed0733f949e3b9d92af30d55.ctex::
+Free - Gun.png::CompressedTexture2D::3499454039695772167::1788900470::1788900470::1::::<><><>0<>0<>9e1548661fb593006b24ffbe5df5f281<>res://.godot/imported/Free - Gun.png-6da4fe0c4ec68641f342932240636bbb.ctex::
+Free - Muzzle Flash FX.png::CompressedTexture2D::1148978677522450996::1788900470::1788900470::1::::<><><>0<>0<>e2b90ff33d7de70244bd923597387967<>res://.godot/imported/Free - Muzzle Flash FX.png-9da944b3d5e6d7bf43e99117b97de52c.ctex::
+::res://Sprite Sheet - Free/Free - Character/::1788900470
+3Death.png::CompressedTexture2D::32676382625426586::1788900470::1788900470::1::::<><><>0<>0<>8dd1f9996cad577b1c035626b599a448<>res://.godot/imported/3Death.png-7d04ec1375376773d76905d03c4c282a.ctex::
+3Hurt.png::CompressedTexture2D::2053874087968054624::1788900470::1788900470::1::::<><><>0<>0<>ca431ef59b2f1609dc7586811142063d<>res://.godot/imported/3Hurt.png-66e829549e1ff82218a029e098e6c458.ctex::
+3Idle.png::CompressedTexture2D::5531955248192120764::1788900470::1788900470::1::::<><><>0<>0<>b6946af2db7372e48453e0d722f2042f<>res://.godot/imported/3Idle.png-b203ad4290647c623aaf3436132eed60.ctex::
+3Roll.png::CompressedTexture2D::4298556630875432975::1788900470::1788900470::1::::<><><>0<>0<>f4b6bf304c470bfe341c69b3adac95f8<>res://.godot/imported/3Roll.png-d0d0e217baf8febe4cee6a09c8623239.ctex::
+3Run.png::CompressedTexture2D::7795317050203158226::1788900470::1788900470::1::::<><><>0<>0<>23ed1089015893a2a38da9deeb0af248<>res://.godot/imported/3Run.png-f7dc3c90ac4dae299abb5475f9b014eb.ctex::

@@ -1,3 +1,8 @@
-res://NewProject/bullet.gd
-res://NewProject/player.gd
-res://NewProject/player_camera.gd
+res://NewProject/game.tscn
+res://FinishedProject/bullet.gd
+res://FinishedProject/bullet.tscn
+res://FinishedProject/enemy.tscn
+res://FinishedProject/game.tscn
+res://FinishedProject/player.gd
+res://FinishedProject/player.tscn
+res://FinishedProject/player_camera.gd
