@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://65iameecgnxr"]
+
+[ext_resource type="Texture2D" uid="uid://ck2yq25bm1x6s" path="res://Sprite Sheet - Free/Free - Character/3Idle.png" id="3_qv5t6"]
+[ext_resource type="Texture2D" uid="uid://bp4fq5isp8s5l" path="res://Sprite Sheet - Free/Free - Gun.png" id="4_p6ufo"]
+
+[sub_resource type="Animation" id="Animation_fc0e3"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Gun:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(10, 3)]
+}
+
+[sub_resource type="Animation" id="Animation_feb5d"]
+resource_name = "idle"
+length = 0.6
+loop_mode = 1
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Gun:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.101749286, 0.2, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [Vector2(10, 3), Vector2(10, 2), Vector2(10, 3), Vector2(10, 4)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_fc0e3"]
+_data = {
+&"RESET": SubResource("Animation_fc0e3"),
+&"idle": SubResource("Animation_feb5d")
+}
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_swjj6"]
+radius = 8.0
+
+[node name="Enemy" type="CharacterBody2D" unique_id=256813832]
+modulate = Color(1, 0.38039216, 0.28235295, 1)
+scale = Vector2(-1, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=559464895]
+root_node = NodePath("../CharacterSprite")
+libraries/ = SubResource("AnimationLibrary_fc0e3")
+autoplay = &"idle"
+
+[node name="CharacterSprite" type="Sprite2D" parent="." unique_id=531314164]
+texture = ExtResource("3_qv5t6")
+hframes = 6
+
+[node name="Gun" type="Sprite2D" parent="." unique_id=739462545]
+position = Vector2(10, 3)
+texture = ExtResource("4_p6ufo")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Gun" unique_id=92486079]
+root_node = NodePath("../FireFx")
+
+[node name="FireFx" type="Sprite2D" parent="Gun" unique_id=727916130]
+position = Vector2(11, -1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=855972266]
+shape = SubResource("CircleShape2D_swjj6")
